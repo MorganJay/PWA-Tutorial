@@ -17,11 +17,14 @@ nav a {
 nav a span {
   font-weight: bold;
 }
+
 nav .sidenav-trigger {
   margin: 0;
   cursor: pointer;
-  user-select: none;
+  user-select: none;  
+  -webkit-tap-highlight-color: transparent;
 }
+
 
 /* recipe styles */
 .recipes {
